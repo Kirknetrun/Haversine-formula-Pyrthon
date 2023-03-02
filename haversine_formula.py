@@ -1,14 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # In[1]:
-
 
 import math
 
-
 # In[3]:
-
 
 def haversine(row):
     lon1 = row['Lon1']
@@ -26,7 +20,6 @@ def haversine(row):
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a))
     d = R * c
     return d
-
 
 # In[ ]:
 
